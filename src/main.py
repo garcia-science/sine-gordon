@@ -1,0 +1,34 @@
+from src.export_data import print_file, verify_step_print
+from pathlib import Path
+from input.initial_cond import initial
+from input.def_variable import define_variables
+from src.f_force import force
+from src.first_iteration import first_it
+from src.Borders_2nd_iteration import second_it
+from src.twodsol_v1 import solution
+import time
+import os
+import input.variables as var
+
+pth = os.path.abspath(os.getcwd())
+PATH = str(Path(pth).parents[0])
+
+
+def main():
+    verify_step_print()
+    u, f, psi, psi_time_list = define_variables()
+    u = initial(u)
+    f = force(f)
+    first_it(u, f)
+    second_it(u)
+    psi_time_list = solution(var.number_iterations, u, f, psi, psi_time_list)
+    print_file(PATH + var.output, psi_time_list)
+
+
+if __name__ == "__main__":
+    start = time.process_time()
+    print("start")
+    main()
+    elapsed_time = time.process_time() - start
+    print(str(elapsed_time) + " seconds")
+    print("Done")
