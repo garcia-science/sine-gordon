@@ -1,9 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a70563c-9e93-4906-8fe1-a66417f3a93f" name="Default Changelist" comment="Master project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1e8Qtv0rhart4Nvo5MIeNem3BpP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a70563c-9e93-4906-8fe1-a66417f3a93f" name="Default Changelist" comment="" />
+      <created>1593700957465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593700957465</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Master project">
+      <created>1593701075725</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593701075725</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Master project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Master project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1593701027331">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.832@0.23.1440.832" timestamp="1593701027331" />
+    <state x="358" y="207" key="MultipleFileMergeDialog" timestamp="1593701091366">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="358" y="207" key="MultipleFileMergeDialog/0.23.1440.832@0.23.1440.832" timestamp="1593701091366" />
+    <state x="508" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593701083132">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="508" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.832@0.23.1440.832" timestamp="1593701083132" />
+    <state x="389" y="234" key="git4idea.merge.GitPullDialog" timestamp="1593701000554">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="389" y="234" key="git4idea.merge.GitPullDialog/0.23.1440.832@0.23.1440.832" timestamp="1593701000554" />
   </component>
 </project>
