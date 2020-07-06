@@ -1,17 +1,13 @@
-from src.export_data import print_file, verify_step_print
-from pathlib import Path
-from input.initial_cond import initial
-from input.def_variable import define_variables
-from src.f_force import force
-from src.first_iteration import first_it
-from src.Borders_2nd_iteration import second_it
-from src.twodsol_v1 import solution
-import time
-import os
-import input.variables as var
+from master.src.export_data import print_file, verify_step_print
+from master.input.initial_cond import initial
+from master.input.def_variable import define_variables
+from master.src.f_force import force
+from master.src.first_iteration import first_it
+from master.src.borders_2nd_iteration import second_it
+from master.src.twodsol_v1 import solution
 
-pth = os.path.abspath(os.getcwd())
-PATH = str(Path(pth).parents[0])
+import master.input.variables as var
+import time
 
 
 def main():
@@ -22,7 +18,7 @@ def main():
     first_it(u, f)
     second_it(u)
     psi_time_list = solution(var.number_iterations, u, f, psi, psi_time_list)
-    print_file(PATH + var.output, psi_time_list)
+    print_file(var.output + var.dir_name, psi_time_list)
 
 
 if __name__ == "__main__":
