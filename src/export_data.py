@@ -1,4 +1,4 @@
-import input.variables as var
+import master.input.variables as var
 import sys
 import numpy as np
 import os
@@ -17,28 +17,57 @@ def verify_step_print() -> None:
         pass
 
 
-def create_directory(dirName: str) -> None:
-    # Create target Directory
-    try:
-        os.mkdir(dirName)
-        print("Directory ", dirName, " Created ")
-    except FileExistsError:
-        print("Directory ", dirName, " already exists")
-
-
-def print_file(path: str, psi_time_list: list) -> None:
+def create_directory(dir_name: str) -> None:
     """
-    Print file
-    :param path:
-    :param psi_time_list:
+    Create target directory
+    :param dir_name: path of the directory to create
     :return:
     """
-    dirName = "dx_" + str(var.dx) + "_dt_" + str(var.dt) + "_D_" + str(var.D) + "_B_" + str(var.B)
-    create_directory(path + dirName)
-    j = 1
-    for item in psi_time_list:
-        if (j == 1) | (j % var.number_steps_print_file == 0):
-            np.savetxt(path + dirName + "/" + "t_" + str(j) + ".txt", item, fmt='%4.6f', delimiter='\t')
-        j = j + 1
+    try:
+        os.mkdir(dir_name)
+        print("Directory ", dir_name, " Created ")
+    except FileExistsError:
+        print("Directory ", dir_name, " already exists")
 
+
+def calculate_position_center(list_values: list, path: str) -> None:
+    """
+    Calculate the position of the center using derivatives calculation
+    :param list_values: list of values for the position 100
+    :param path: path of the output file
+    :param f: external force
+    :return:
+    """
+    x0 = None
+    for index in range(len(list_values) - 1):
+        f1 = list_values[index] - np.pi
+        f2 = list_values[index + 1] - np.pi
+        if (f1 * f2) < 0:
+            x0 = ((f2 * index * var.dx) - (f1 * (index + 1) * var.dx)) / (f2 - f1)
+            print(x0)
+    f = open(path + "/" + "center.txt", 'a')
+    f.write(str(x0) + '\n')
+    f.close()
+
+
+def print_file(dir_name: str, psi_time_list: list) -> None:
+    """
+    Print output to directory and print the position of the center
+    :param path: path of the output
+    :param psi_time_list: list of the values of psi
+    :param f: external force
+    :return:
+    """
+
+    create_directory(dir_name)
+    print(len(psi_time_list))
+    j = 0
+    for item in psi_time_list:
+        print(item)
+        f = open(dir_name + "/" + "t_" + str(j) + ".txt", 'w')
+        calculate_position_center(item, dir_name, f)
+        for ele in item:
+            f.write(str(ele) + '\n')
+        f.close()
+        j += 1
     return None

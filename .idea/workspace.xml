@@ -19,13 +19,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a70563c-9e93-4906-8fe1-a66417f3a93f" name="Default Changelist" comment="Master project">
+    <list default="true" id="3a70563c-9e93-4906-8fe1-a66417f3a93f" name="Default Changelist" comment="Revision branch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/def_variable.py" beforeDir="false" afterPath="$PROJECT_DIR$/input/def_variable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/initial_cond.py" beforeDir="false" afterPath="$PROJECT_DIR$/input/initial_cond.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/input/variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Borders_2nd_iteration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/export_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/export_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/f_force.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/f_force.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_iteration.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_iteration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twodsol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twodsol_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/twodsol_v1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -36,6 +53,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1e8Qtv0rhart4Nvo5MIeNem3BpP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,7 +64,106 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/input" />
+      <recent name="$PROJECT_DIR$/master/src" />
+      <recent name="$PROJECT_DIR$/master/input" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/master" />
+      <recent name="$PROJECT_DIR$/master/src" />
+      <recent name="$PROJECT_DIR$/master/output" />
+      <recent name="$PROJECT_DIR$/original" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sine-gordon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="com.brainwy.pyvmmonitor.PyVmMonitorRunExtension">
+        <option name="PyVmMonitorInitialProfileMode" value="INHERIT_GLOBAL" />
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_good" type="PythonConfigurationType" factoryName="Python">
+      <module name="sine-gordon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/master/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="com.brainwy.pyvmmonitor.PyVmMonitorRunExtension">
+        <option name="PyVmMonitorInitialProfileMode" value="INHERIT_GLOBAL" />
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/master/MASTER_main_good.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sine-gordon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/master/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="com.brainwy.pyvmmonitor.PyVmMonitorRunExtension">
+        <option name="PyVmMonitorInitialProfileMode" value="INHERIT_GLOBAL" />
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/master/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main_good" />
+      <item itemvalue="Python.main_test" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main_test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593701075725</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Revision branch">
+      <created>1593790352339</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593790352339</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,20 +203,63 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Master project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Master project" />
+    <MESSAGE value="Revision branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revision branch" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="184" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593993407239">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1593805809262" />
+    <state x="184" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.830@0.23.1440.830" timestamp="1593993407239" />
     <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1593701027331">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.832@0.23.1440.832" timestamp="1593701027331" />
+    <state width="1419" height="213" key="GridCell.Tab.0.bottom" timestamp="1593995649641">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1419" height="215" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593816612248" />
+    <state width="1419" height="213" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1593995649641" />
+    <state width="1419" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1593794012522" />
+    <state width="1419" height="214" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1593910738831" />
+    <state width="1419" height="214" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1593822720451" />
+    <state width="1419" height="213" key="GridCell.Tab.0.center" timestamp="1593995649641">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1419" height="215" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593816612247" />
+    <state width="1419" height="213" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1593995649641" />
+    <state width="1419" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1593794012521" />
+    <state width="1419" height="214" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1593910738831" />
+    <state width="1419" height="214" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1593822720450" />
+    <state width="1419" height="213" key="GridCell.Tab.0.left" timestamp="1593995649640">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1419" height="215" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593816612247" />
+    <state width="1419" height="213" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1593995649640" />
+    <state width="1419" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1593794012521" />
+    <state width="1419" height="214" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1593910738830" />
+    <state width="1419" height="214" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1593822720450" />
+    <state width="1419" height="213" key="GridCell.Tab.0.right" timestamp="1593995649641">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state width="1419" height="215" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593816612248" />
+    <state width="1419" height="213" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1593995649641" />
+    <state width="1419" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1593794012522" />
+    <state width="1419" height="214" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1593910738831" />
+    <state width="1419" height="214" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1593822720450" />
     <state x="358" y="207" key="MultipleFileMergeDialog" timestamp="1593701091366">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="358" y="207" key="MultipleFileMergeDialog/0.23.1440.832@0.23.1440.832" timestamp="1593701091366" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1593790358940">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.831@0.23.1440.831" timestamp="1593790358940" />
     <state x="508" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593701083132">
       <screen x="0" y="23" width="1440" height="832" />
     </state>

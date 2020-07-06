@@ -2,11 +2,16 @@ from itertools import product
 
 import numpy as np
 
-import input.variables as var
+import master.input.variables as var
 
 
-def force(f):
-    f = 0.
+def force(f: float) -> float:
+    """
+    Define force for the solitons
+    :param f: force
+    :return:
+    """
+    f = var.f
     """
     for m, n in product(range(1, var.D - 1), range(1, var.D - 1)):
         
