@@ -19,8 +19,8 @@ def verify_step_print() -> None:
 
 def create_directory(dir_name: str) -> None:
     """
-    Create target directory
-    :param dir_name: path of the directory to create
+    Create directory for output
+    :param dir_name: Directory of output
     :return:
     """
     try:
@@ -44,7 +44,7 @@ def calculate_position_center(list_values: list, path: str) -> None:
         f2 = list_values[index + 1] - np.pi
         if (f1 * f2) < 0:
             x0 = ((f2 * index * var.dx) - (f1 * (index + 1) * var.dx)) / (f2 - f1)
-            print(x0)
+            #print(x0)
     f = open(path + "/" + "center.txt", 'a')
     f.write(str(x0) + '\n')
     f.close()
@@ -60,12 +60,12 @@ def print_file(dir_name: str, psi_time_list: list) -> None:
     """
 
     create_directory(dir_name)
-    print(len(psi_time_list))
+    #print(len(psi_time_list))
     j = 0
     for item in psi_time_list:
-        print(item)
+        #print(item)
         f = open(dir_name + "/" + "t_" + str(j) + ".txt", 'w')
-        calculate_position_center(item, dir_name, f)
+        calculate_position_center(item, dir_name)
         for ele in item:
             f.write(str(ele) + '\n')
         f.close()

@@ -14,7 +14,7 @@ sigma = 15
 Disp = 1 / (2 + (Gamma * dt))
 Dism = (2 - (Gamma * dt))
 dts = (dt / dx) * (dt / dx)
-number_iterations = 99
+number_iterations = 19
 number_steps_print_file = 5
 f = 0.1
 
