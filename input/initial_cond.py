@@ -1,5 +1,5 @@
 import numpy as np
-import master.input.variables as var
+import input.variables as var
 
 
 def initial(u: np.ndarray) -> np.ndarray:
