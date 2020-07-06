@@ -1,8 +1,4 @@
-from itertools import product
-
-import numpy as np
-
-import master.input.variables as var
+import input.variables as var
 
 
 def force(f: float) -> float:

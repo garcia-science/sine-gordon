@@ -1,12 +1,12 @@
-from master.src.export_data import print_file, verify_step_print
-from master.input.initial_cond import initial
-from master.input.def_variable import define_variables
-from master.src.f_force import force
-from master.src.first_iteration import first_it
-from master.src.borders_2nd_iteration import second_it
-from master.src.twodsol_v1 import solution
+from src.export_data import print_file, verify_step_print
+from input.initial_cond import initial
+from input.def_variable import define_variables
+from src.f_force import force
+from src.first_iteration import first_it
+from src.borders_2nd_iteration import second_it
+from src.twodsol_v1 import solution
 
-import master.input.variables as var
+import input.variables as var
 import time
 
 
