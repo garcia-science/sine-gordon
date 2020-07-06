@@ -1,5 +1,5 @@
 import numpy as np
-import master.input.variables as var
+import input.variables as var
 
 
 def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: list) -> list:
@@ -71,7 +71,7 @@ def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: 
         lista_profile = []
         if (k % 20) == 0:
             for j in range(var.D):
-                #print(psi[100][j])
+                # print(psi[100][j])
                 lista_profile.append(psi[100][j])
             psi_time_list.append(lista_profile)
 

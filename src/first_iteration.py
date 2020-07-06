@@ -1,8 +1,8 @@
 import numpy as np
-import master.input.variables as var
+import input.variables as var
 
 
-def first_it(u, f)-> np.array:
+def first_it(u, f) -> np.array:
     """
     First iteration
     :param u: field u
