@@ -60,10 +60,8 @@ def print_file(dir_name: str, psi_time_list: list) -> None:
     """
 
     create_directory(dir_name)
-    #print(len(psi_time_list))
     j = 0
     for item in psi_time_list:
-        #print(item)
         f = open(dir_name + "/" + "t_" + str(j) + ".txt", 'w')
         calculate_position_center(item, dir_name)
         for ele in item:
