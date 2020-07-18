@@ -44,7 +44,7 @@ def calculate_position_center(list_values: list, path: str) -> None:
         f2 = list_values[index + 1] - np.pi
         if (f1 * f2) < 0:
             x0 = ((f2 * index * var.dx) - (f1 * (index + 1) * var.dx)) / (f2 - f1)
-            #print(x0)
+            # print(x0)
     f = open(path + "/" + "center.txt", 'a')
     f.write(str(x0) + '\n')
     f.close()
@@ -53,6 +53,7 @@ def calculate_position_center(list_values: list, path: str) -> None:
 def print_file(dir_name: str, psi_time_list: list) -> None:
     """
     Print output to directory and print the position of the center
+    :param dir_name:
     :param path: path of the output
     :param psi_time_list: list of the values of psi
     :param f: external force

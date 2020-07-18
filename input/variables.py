@@ -1,4 +1,5 @@
-import os, platform
+import os
+import platform
 from pathlib import Path
 
 pth = os.path.abspath(os.getcwd())
@@ -14,11 +15,11 @@ sigma = 15
 Disp = 1 / (2 + (Gamma * dt))
 Dism = (2 - (Gamma * dt))
 dts = (dt / dx) * (dt / dx)
-number_iterations = 19
+number_iterations = 999
 number_steps_print_file = 5
-f = 0.1
+f = -0.01
 
-## VARIABLES FOR OUTPUTS
+# VARIABLES FOR OUTPUTS
 if platform.system() == "Darwin":
     output = PATH + "/output/"
 else:

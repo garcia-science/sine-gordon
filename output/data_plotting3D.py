@@ -5,7 +5,6 @@ from matplotlib.ticker import LinearLocator  # FormatStrFormatter
 import matplotlib.pyplot as plt
 import numpy as np
 import input.variables as var
-# from matplotlib import cm
 import matplotlib
 matplotlib.rcParams['text.usetex'] = True
 

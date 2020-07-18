@@ -6,7 +6,7 @@ def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: 
     """
     Integrate solution
     :param f: force
-    :param nint: number of itterations
+    :param nint: number of iterations
     :param u: field that functional dependence is (x,y,t)
     :param psi:  field at new iterations
     :param psi_time_list: list of psi for different time
@@ -34,7 +34,7 @@ def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: 
     u[var.D - 1][var.D - 1][1] = u[var.D - 2][var.D - 1][1]
 
     for k in range(0, nint + 1):  # Following iterations
-        if (k % 20) == 0: print(k, "out of  ", nint)
+        if (k % 20) == 0: print(k, "out of ", nint)
         for m in range(1, var.D - 1):
             for l in range(1, var.D - 1):
                 a1 = u[m + 1][l][1] + u[m - 1][l][1] + u[m][l + 1][1] + u[m][l - 1][1]
@@ -66,7 +66,7 @@ def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: 
             for j in range(0, var.D, 1):
                 psi[i][j] = u[i][j][2]
 
-        ### EXPORT ROW NUMBER 100 TI VERIFY DISPLACEMENTS WITH FORCE
+        # EXPORT ROW NUMBER 100 TI VERIFY DISPLACEMENTS WITH FORCE
 
         lista_profile = []
         if (k % 20) == 0:

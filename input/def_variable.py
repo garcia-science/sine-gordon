@@ -1,4 +1,4 @@
-import master.input.variables as var
+import input.variables as var
 
 import numpy as np
 
