@@ -9,15 +9,15 @@ D = 201
 dx = 0.5
 dy = dx
 dt = 0.01
-Gamma = 0.
+Gamma = 0.1
 B = 0.3
 sigma = 15
 Disp = 1 / (2 + (Gamma * dt))
 Dism = (2 - (Gamma * dt))
 dts = (dt / dx) * (dt / dx)
 number_iterations = 999
-number_steps_print_file = 5
-f = -0.01
+number_steps_print_file = 20
+f = 0.1
 
 # VARIABLES FOR OUTPUTS
 if platform.system() == "Darwin":

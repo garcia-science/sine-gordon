@@ -68,7 +68,7 @@ def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: 
 # EXPORT ROW NUMBER 100 TO VERIFY DISPLACEMENTS WITH FORCE
 
         lista_profile = []
-        if (k % 20) == 0:
+        if (k % var.number_steps_print_file) == 0:
             for j in range(var.D):
                 # print(psi[100][j])
                 lista_profile.append(psi[100][j])
