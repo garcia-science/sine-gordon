@@ -2,7 +2,6 @@ import input.variables as var
 import numpy as np
 from input.initial_cond import initial
 from itertools import product
-# import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib
 

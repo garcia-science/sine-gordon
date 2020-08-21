@@ -41,7 +41,7 @@ def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: 
                 u3 = -1 * u[m][l][0] * var.Disp * var.Dism
                 u4 = 2 * var.Disp * (var.dts * a1) - 2 * (var.dt * var.dt * np.sin(tmp)) * var.Disp
                 u5 = 4 * (1 - (2 * var.dts)) * u[m][l][1] * var.Disp
-                uf = 2 * f * var.dt * var.dt * var.Disp
+                uf = 2 * f[m][l] * var.dt * var.dt * var.Disp
                 u[m][l][2] = u3 + u4 + u5 + uf
                 u[m][0][2] = u[m][1][2]
                 u[m][var.D - 1][2] = u[m][var.D - 2][2]
@@ -65,8 +65,7 @@ def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: 
             for j in range(0, var.D, 1):
                 psi[i][j] = u[i][j][2]
 
-# EXPORT ROW NUMBER 100 TO VERIFY DISPLACEMENTS WITH FORCE
-
+        # EXPORT ROW NUMBER 100 TO VERIFY DISPLACEMENTS WITH FORCE
         lista_profile = []
         if (k % var.number_steps_print_file) == 0:
             for j in range(var.D):
