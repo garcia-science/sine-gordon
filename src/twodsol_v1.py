@@ -1,5 +1,6 @@
 import numpy as np
 import input.variables as var
+from itertools import product
 
 
 def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: list) -> list:
@@ -33,7 +34,7 @@ def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: 
     u[var.D - 1][var.D - 1][1] = u[var.D - 2][var.D - 1][1]
 
     for k in range(0, nint + 1):  # Following iterations
-        if (k % 20) == 0: print(k, "out of ", nint)
+        if (k % 20) == 0: print(k, "out of", nint)
         for m in range(1, var.D - 1):
             for l in range(1, var.D - 1):
                 a1 = u[m + 1][l][1] + u[m - 1][l][1] + u[m][l + 1][1] + u[m][l - 1][1]
@@ -64,13 +65,14 @@ def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: 
         for i in range(0, var.D, 1):
             for j in range(0, var.D, 1):
                 psi[i][j] = u[i][j][2]
+        # psi_time_list.append(psi)  # Uncomment to obtain a 3D soliton and use "export_data_without_center
 
-        # EXPORT ROW NUMBER 100 TO VERIFY DISPLACEMENTS WITH FORCE
+            # THIS SECTION IS TO EXPORT ROW NUMBER 100 TO VERIFY DISPLACEMENTS WITH FORCE. Uncomment if you need that.
         lista_profile = []
         if (k % var.number_steps_print_file) == 0:
             for j in range(var.D):
-                # print(psi[100][j])
                 lista_profile.append(psi[100][j])
             psi_time_list.append(lista_profile)
+            # print(lista_profile)
 
     return psi_time_list
