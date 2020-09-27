@@ -2,6 +2,7 @@ import input.variables as var
 import sys
 import numpy as np
 import os
+import csv
 
 
 def verify_step_print() -> None:
@@ -64,9 +65,10 @@ def print_file(dir_name: str, psi_time_list: list) -> None:
     j = 0
     for item in psi_time_list:
         f = open(dir_name + "/" + "t_" + str(j) + ".txt", 'w')
-        calculate_position_center(item, dir_name)
-        for ele in item:
-            f.write(str(ele) + '\n')
+       # calculate_position_center(item, dir_name)
+       # for ele in item:
+        csvwriter = csv.writer(f)
+        csvwriter.writerows(item)
         f.close()
         j += 1
     return None

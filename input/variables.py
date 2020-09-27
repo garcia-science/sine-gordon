@@ -14,13 +14,13 @@ y_0 = dy*100
 x_00 = -5
 y_00 = 4
 Gamma = 0.01
-B = 1.1
+B_square = 0.90
 sigma = 15
 Disp = 1 / (2 + (Gamma * dt))
 Dism = (2 - (Gamma * dt))
 dts = (dt / dx) * (dt / dx)
-number_iterations = 999
-number_steps_print_file = 20
+number_iterations = 199
+number_steps_print_file = 10
 # f = 0.1
 
 # VARIABLES FOR OUTPUTS
@@ -29,5 +29,5 @@ if platform.system() == "Darwin":
 else:
     output = PATH + "\\output\\"
 
-dir_name = "test_dx_" + str(dx) + "_dt_" + str(round(dt, 2)) + "_D_" + str(D) + "_B_" + str(
-    float(round(B, 2))) + "_x_0_" + str(float(round(x_00, 2)))
+dir_name = "rev_dx_" + str(dx) + "_dt_" + str(round(dt, 2)) + "_D_" + str(D) + "_B_square_" + str(
+    float(round(B_square, 2))) + "_x_0_" + str(float(round(x_00, 2)))

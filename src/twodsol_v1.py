@@ -3,7 +3,7 @@ import input.variables as var
 from itertools import product
 
 
-def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: list) -> list:
+def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: list, number_steps) -> list:
     """
     Integrate solution
     :param f: force
@@ -34,7 +34,7 @@ def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: 
     u[var.D - 1][var.D - 1][1] = u[var.D - 2][var.D - 1][1]
 
     for k in range(0, nint + 1):  # Following iterations
-        if (k % 20) == 0: print(k, "out of", nint)
+        if (k % number_steps) == 0: print(k, "out of", nint)
         for m in range(1, var.D - 1):
             for l in range(1, var.D - 1):
                 a1 = u[m + 1][l][1] + u[m - 1][l][1] + u[m][l + 1][1] + u[m][l - 1][1]
@@ -69,10 +69,8 @@ def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: 
 
             # THIS SECTION IS TO EXPORT ROW NUMBER 100 TO VERIFY DISPLACEMENTS WITH FORCE. Uncomment if you need that.
         lista_profile = []
-        if (k % var.number_steps_print_file) == 0:
-            for j in range(var.D):
-                lista_profile.append(psi[100][j])
-            psi_time_list.append(lista_profile)
+        if (k % number_steps) == 0:
+            psi_time_list.append(psi)
             # print(lista_profile)
 
     return psi_time_list

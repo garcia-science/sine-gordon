@@ -21,10 +21,12 @@ def main():
     u, f, psi, psi_time_list = define_variables()
     u = initial(u)
     # f = force(var.dx, var.D, var.B, var.sigma)  # Activate for use a force f=f(x,y)
-    f = force_x(var.dx, var.D, var.B)  # Activate for use a force f=f(x)
+    f = force_x(var.dx, var.D, var.B_square)  # Activate for use a force f=f(x)
     first_it(u, f)
     second_it(u)
-    psi_time_list = solution(var.number_iterations, u, f, psi, psi_time_list)
+    psi_time_list = solution(var.number_iterations, u, f, psi, psi_time_list, var.number_steps_print_file)
+    print(psi_time_list[0])
+    print(psi_time_list[-1])
     print_file(var.output + var.dir_name, psi_time_list)
 
 
