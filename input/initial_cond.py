@@ -15,7 +15,9 @@ def initial(u: np.ndarray) -> np.ndarray:
         xx = -var.x_0
         for j in range(0, var.D):
             tmp = np.exp(xx-var.x_00)
+            #print(tmp)
             u[i][j][0] = 4. * (np.arctan(tmp))
             xx = xx + var.dx
         yy = yy + var.dy
     return u
+

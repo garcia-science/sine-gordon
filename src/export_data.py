@@ -65,10 +65,8 @@ def print_file(dir_name: str, psi_time_list: list) -> None:
     j = 0
     for item in psi_time_list:
         f = open(dir_name + "/" + "t_" + str(j) + ".txt", 'w')
-       # calculate_position_center(item, dir_name)
-       # for ele in item:
-        csvwriter = csv.writer(f)
-        csvwriter.writerows(item)
-        f.close()
-        j += 1
+        list1 = item.tolist()
+        wr = csv.writer(f)
+        wr.writerows(list1)
+        j = j + 1
     return None

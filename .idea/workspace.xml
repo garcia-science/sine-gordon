@@ -19,122 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a70563c-9e93-4906-8fe1-a66417f3a93f" name="Default Changelist" comment="Master version">
+    <list default="true" id="3a70563c-9e93-4906-8fe1-a66417f3a93f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sine-gordon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sine-gordon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/export_data_without_center.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_force.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fx_force.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/initial_cond.py" beforeDir="false" afterPath="$PROJECT_DIR$/input/initial_cond.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/input/variables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-40.0_fxy__f_00.0_Gamma_0.0/center.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-40.0_fxy__f_00.0_Gamma_0.0/t_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-40.0_fxy__f_00.0_Gamma_0.0/t_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-40.0_fxy__f_00.0_Gamma_0.0/t_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-40.0_fxy__f_00.0_Gamma_0.0/t_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-40.0_fxy__f_00.0_Gamma_0.0/t_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-40.0_fxy__f_00.0_Gamma_0.0/t_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-40.0_fxy__f_00.0_Gamma_0.0/t_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-40.0_fxy__f_00.0_Gamma_0.0/t_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-40.0_fxy__f_00.0_Gamma_0.0/t_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-40.0_fxy__f_00.0_Gamma_0.0/t_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-5.0_fxy__f_00.0_Gamma_0.0/center.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-5.0_fxy__f_00.0_Gamma_0.0/t_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-5.0_fxy__f_00.0_Gamma_0.0/t_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-5.0_fxy__f_00.0_Gamma_0.0/t_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-5.0_fxy__f_00.0_Gamma_0.0/t_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-5.0_fxy__f_00.0_Gamma_0.0/t_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-5.0_fxy__f_00.0_Gamma_0.0/t_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-5.0_fxy__f_00.0_Gamma_0.0/t_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-5.0_fxy__f_00.0_Gamma_0.0/t_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-5.0_fxy__f_00.0_Gamma_0.0/t_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_-5.0_fxy__f_00.0_Gamma_0.0/t_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_0.0_fxy__f_00.0_Gamma_0.0/center.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_10.0_fxy__f_00.0_Gamma_0.0/center.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_10.0_fxy__f_00.0_Gamma_0.0/t_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_10.0_fxy__f_00.0_Gamma_0.0/t_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_10.0_fxy__f_00.0_Gamma_0.0/t_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_10.0_fxy__f_00.0_Gamma_0.0/t_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_10.0_fxy__f_00.0_Gamma_0.0/t_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_10.0_fxy__f_00.0_Gamma_0.0/t_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_10.0_fxy__f_00.0_Gamma_0.0/t_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_10.0_fxy__f_00.0_Gamma_0.0/t_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_10.0_fxy__f_00.0_Gamma_0.0/t_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_10.0_fxy__f_00.0_Gamma_0.0/t_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_5.0_fxy__f_00.0_Gamma_0.0/center.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_5.0_fxy__f_00.0_Gamma_0.0/t_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_5.0_fxy__f_00.0_Gamma_0.0/t_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_5.0_fxy__f_00.0_Gamma_0.0/t_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_5.0_fxy__f_00.0_Gamma_0.0/t_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_5.0_fxy__f_00.0_Gamma_0.0/t_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_5.0_fxy__f_00.0_Gamma_0.0/t_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_5.0_fxy__f_00.0_Gamma_0.0/t_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_5.0_fxy__f_00.0_Gamma_0.0/t_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_5.0_fxy__f_00.0_Gamma_0.0/t_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.95_x_0_5.0_fxy__f_00.0_Gamma_0.0/t_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.9_x_0_0.0_fxy__f_00.0_Gamma_0.0/center.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.9_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.9_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.9_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.9_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.9_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.9_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.9_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.9_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.9_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_0.9_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.3_f_0/center.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.3_f_0/t_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.3_f_0/t_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.3_f_0/t_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.3_f_0/t_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.3_f_0/t_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.3_f_0/t_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.3_f_0/t_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.3_f_0/t_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.3_f_0/t_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.3_f_0/t_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.8_f_0/center.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.8_f_0/t_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.8_f_0/t_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.8_f_0/t_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.8_f_0/t_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.8_f_0/t_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.8_f_0/t_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.8_f_0/t_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.8_f_0/t_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.8_f_0/t_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.0_x_0_0.0_fxy0.8_f_0/t_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0/center.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0/t_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0/t_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0/t_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0/t_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0/t_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0/t_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0/t_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0/t_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0/t_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0/t_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0_Gamma_0.0/center.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/test_micro_dx_0.4_dt_0.01_D_201_B_1.1_x_0_0.0_fxy__f_00.0_Gamma_0.0/t_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/data_plotting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/end.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/export_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/export_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first_iteration.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_iteration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fx_force.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fx_force.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/initial.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/twodsol_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/twodsol_v1.py" afterDir="false" />
     </list>
@@ -153,7 +51,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="revision" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -188,6 +86,31 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="sine-gordon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="com.brainwy.pyvmmonitor.PyVmMonitorRunExtension">
+        <option name="PyVmMonitorInitialProfileMode" value="INHERIT_GLOBAL" />
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sine-gordon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,7 +208,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593700957465</updated>
-      <workItem from="1601244342534" duration="2339000" />
+      <workItem from="1601244342534" duration="5957000" />
+      <workItem from="1601407378181" duration="13428000" />
     </task>
     <task id="LOCAL-00001" summary="Master project">
       <created>1593701075725</created>
@@ -301,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593790352339</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Revision version for plotting">
+      <created>1601247602369</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601247602369</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +253,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Master project" />
     <MESSAGE value="Revision branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revision branch" />
+    <MESSAGE value="Revision version for plotting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revision version for plotting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593993407239">
@@ -330,58 +262,64 @@
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1593805809262" />
     <state x="184" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.830@0.23.1440.830" timestamp="1593993407239" />
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1593701027331">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.832@0.23.1440.832" timestamp="1593701027331" />
-    <state width="1398" height="243" key="GridCell.Tab.0.bottom" timestamp="1601247294662">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1601247602105">
       <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601247602105" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.832@0.23.1440.832" timestamp="1593701027331" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1601472208792">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594064000747" />
-    <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601247294662" />
+    <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601466201808" />
     <state width="1419" height="213" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1593995649641" />
-    <state width="1419" height="215" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1593794012522" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1601472208792" />
     <state width="1419" height="214" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1593910738831" />
     <state width="1419" height="214" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1593822720451" />
-    <state width="1398" height="243" key="GridCell.Tab.0.center" timestamp="1601247294661">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1601472208792">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594064000747" />
-    <state width="1398" height="243" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601247294661" />
+    <state width="1398" height="243" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601466201807" />
     <state width="1419" height="213" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1593995649641" />
-    <state width="1419" height="215" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1593794012521" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1601472208792" />
     <state width="1419" height="214" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1593910738831" />
     <state width="1419" height="214" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1593822720450" />
-    <state width="1398" height="243" key="GridCell.Tab.0.left" timestamp="1601247294660">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1601472208791">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594064000747" />
-    <state width="1398" height="243" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601247294660" />
+    <state width="1398" height="243" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601466201807" />
     <state width="1419" height="213" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1593995649640" />
-    <state width="1419" height="215" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1593794012521" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1601472208791" />
     <state width="1419" height="214" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1593910738830" />
     <state width="1419" height="214" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1593822720450" />
-    <state width="1398" height="243" key="GridCell.Tab.0.right" timestamp="1601247294661">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1601472208792">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594064000747" />
-    <state width="1398" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601247294661" />
+    <state width="1398" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601466201808" />
     <state width="1419" height="213" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1593995649641" />
-    <state width="1419" height="215" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1593794012522" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1601472208792" />
     <state width="1419" height="214" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1593910738831" />
     <state width="1419" height="214" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1593822720450" />
     <state x="358" y="207" key="MultipleFileMergeDialog" timestamp="1593701091366">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="358" y="207" key="MultipleFileMergeDialog/0.23.1440.832@0.23.1440.832" timestamp="1593701091366" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1593790358940">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state x="320" y="154" key="Vcs.Push.Dialog.v2" timestamp="1601247620989">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="154" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601247620989" />
     <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.831@0.23.1440.831" timestamp="1593790358940" />
     <state x="508" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593701083132">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="508" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.832@0.23.1440.832" timestamp="1593701083132" />
+    <state x="468" y="158" key="git4idea.branch.GitSmartOperationDialog" timestamp="1601470296393">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="468" y="158" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.831@0.23.1440.831" timestamp="1601470296393" />
     <state x="545" y="196" key="git4idea.merge.GitPullDialog" timestamp="1594063902202">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -389,6 +327,6 @@
     <state x="389" y="234" key="git4idea.merge.GitPullDialog/0.23.1440.832@0.23.1440.832" timestamp="1593701000554" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sine_gordon$main.coverage" NAME="main Coverage Results" MODIFIED="1601247294650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/sine_gordon$main.coverage" NAME="main Coverage Results" MODIFIED="1601472208783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

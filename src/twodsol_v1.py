@@ -14,15 +14,6 @@ def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: 
     :return: psi_time_list: list of psi for different time
     """
 
-    # for m in range(1, var.D - 1):
-    # for l in range(1, var.D - 1):
-    # a2 = u[m + 1][l][0] + u[m - 1][l][0] + u[m][l + 1][0] + u[m][l - 1][0]
-    # tmp = .25 * a2
-    # u1 = .5 * ((var.dts * a2) - (var.dt * var.dt * np.sin(tmp)))
-    # u2 = (1 - (2 * var.dts)) * u[m][l][0]
-    # uf = f * var.dt * var.dt
-    # u[m][l][1] = u1 + u2 + uf
-
     for mm in range(1, var.D - 1):  # Borders in second iteration
         u[mm][0][1] = u[mm][1][1]
         u[mm][var.D - 1][1] = u[mm][var.D - 2][1]
@@ -67,10 +58,11 @@ def solution(nint: int, u: np.array, f: np.array, psi: np.array, psi_time_list: 
                 psi[i][j] = u[i][j][2]
         # psi_time_list.append(psi)  # Uncomment to obtain a 3D soliton and use "export_data_without_center
 
-            # THIS SECTION IS TO EXPORT ROW NUMBER 100 TO VERIFY DISPLACEMENTS WITH FORCE. Uncomment if you need that.
+        # THIS SECTION IS TO EXPORT ROW NUMBER 100 TO VERIFY DISPLACEMENTS WITH FORCE. Uncomment if you need that.
         lista_profile = []
-        if (k % number_steps) == 0:
+        lista_profile = []
+       # print(type(psi))
+        if (k % var.number_steps_print_file) == 0:
             psi_time_list.append(psi)
-            # print(lista_profile)
 
     return psi_time_list

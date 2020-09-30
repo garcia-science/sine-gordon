@@ -25,8 +25,6 @@ def main():
     first_it(u, f)
     second_it(u)
     psi_time_list = solution(var.number_iterations, u, f, psi, psi_time_list, var.number_steps_print_file)
-    print(psi_time_list[0])
-    print(psi_time_list[-1])
     print_file(var.output + var.dir_name, psi_time_list)
 
 
