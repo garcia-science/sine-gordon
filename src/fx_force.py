@@ -2,7 +2,7 @@ import input.variables as var
 import numpy as np
 
 
-def force_x(dx, D, B_square) -> float:
+def force(dx, D, B_square) -> float:
     """
     Define force for the solitons
     :param a: var.dx
