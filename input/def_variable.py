@@ -12,4 +12,5 @@ def define_variables() -> tuple:
     f = np.zeros((var.D, var.D), float)
     psi = np.zeros((var.D, var.D), float)
     psi_time_list = []
-    return u, f, psi, psi_time_list
+    force_time_list = []
+    return u, f, psi, psi_time_list, force_time_list

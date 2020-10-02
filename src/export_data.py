@@ -51,7 +51,7 @@ def calculate_position_center(list_values: list, path: str) -> None:
     f.close()
 
 
-def print_file(dir_name: str, psi_time_list: list) -> None:
+def print_file(dir_name: str, dir_elem:str, time_list: list) -> None:
     """
     Print output to directory and print the position of the center
     :param dir_name:
@@ -63,10 +63,7 @@ def print_file(dir_name: str, psi_time_list: list) -> None:
 
     create_directory(dir_name)
     j = 0
-    for item in psi_time_list:
-        f = open(dir_name + "/" + "t_" + str(j) + ".txt", 'w')
-        list1 = item.tolist()
-        wr = csv.writer(f)
-        wr.writerows(list1)
+    for item in time_list:
+        np.savetxt(dir_name + "/" + dir_elem + "t" + str(j) + ".txt", item, delimiter=',')
         j = j + 1
     return None

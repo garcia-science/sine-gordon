@@ -9,6 +9,7 @@ from src.borders_2nd_iteration import second_it
 from src.twodsol_v1 import solution
 import input.variables as var
 import time
+import numpy as np
 
 """
 Important: To evaluate the center of the soliton and its XZ proyection, it have to use "export_data". To see the Soliton3D use
@@ -18,14 +19,18 @@ Important: To evaluate the center of the soliton and its XZ proyection, it have 
 
 def main():
     verify_step_print()
-    u, f, psi, psi_time_list = define_variables()
+    u, f, psi, psi_time_list, force_time_list = define_variables()
     u = initial(u)
-    # f = force(var.dx, var.D, var.B, var.sigma)  # Activate for use a force f=f(x,y)
     f = force_x(var.dx, var.D, var.B_square)  # Activate for use a force f=f(x)
     first_it(u, f)
     second_it(u)
-    psi_time_list = solution(var.number_iterations, u, f, psi, psi_time_list, var.number_steps_print_file)
-    print_file(var.output + var.dir_name, psi_time_list)
+    psi_time_list, force_time_list = solution(var.number_iterations, u, f, psi, psi_time_list, force_time_list,
+                                              var.number_steps_print_file)
+    np.savetxt("../output/rev_dx_0.5_dt_0.01_D_200_B_square_1.2_x_0_-5.0_f_var_const/outside_t_"
+               + str(0) + ".txt", psi_time_list[0], delimiter=',')
+    np.savetxt("../output/rev_dx_0.5_dt_0.01_D_200_B_square_1.2_x_0_-5.0_f_var_const/outside_t_"
+               + str(-1) + ".txt", psi_time_list[-1], delimiter=',')
+    print_file(var.output + var.dir_name, "psi", psi_time_list)
 
 
 if __name__ == "__main__":
