@@ -15,6 +15,6 @@ def first_it(u, f) -> np.array:
             tmp = .25 * a2
             u1 = .5 * ((var.dts * a2) - (var.dt * var.dt * np.sin(tmp)))
             u2 = (1 - (2 * var.dts)) * u[m][l][0]
-            uf = f[m][l] * var.dt * var.dt
+            uf = 0.5 * f[m][l] * var.dt * var.dt
             u[m][l][1] = u1 + u2 + uf
     return u

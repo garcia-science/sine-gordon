@@ -18,3 +18,4 @@ def second_it(u) -> np.array:
     u[0][var.D - 1][1] = u[1][var.D - 1][1]
     u[var.D - 1][var.D - 1][1] = u[var.D - 2][var.D - 1][1]
     return u
+
